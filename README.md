@@ -11,10 +11,10 @@ To setup environment you will need:
 
 Connect pins (review pins layout for your ESP board)
 
-GPIO5 - Relay 1
-GPIO4 - Relay 2
-GPIO0 - Relay 3
-GPIO13 - Relay 4
+	☼ GPIO5 - Relay 1
+	☼ GPIO4 - Relay 2
+	☼ GPIO0 - Relay 3
+	☼ GPIO13 - Relay 4
 
 ! Please pay attention that electric consumer should be connected to NO (normaly open) relay output !
 	  
@@ -23,7 +23,7 @@ To adapt code please edit this lines -
      
      	03   const char* ssid = "Wi-Fi Network Name";  //Input your Wi-Fi SSID 
           	04   const char* password = "Wi-Fi password";  //Input your Wi-Fi password
-            26  WiFi.hostname("----"); // Your ESP board network name
+            26   WiFi.hostname("----"); // Your ESP board network name
 		  
  Open in browser http://"ESP board IP address"/
  
